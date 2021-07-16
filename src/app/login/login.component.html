@@ -14,7 +14,7 @@
                                 <div class="alert alert-success" *ngIf="mensagemSucesso">
                                     {{mensagemSucesso}}
                                 </div>
-                                <div class="alert alert-danger" *ngIf="loginError">
+                                <div class="alert alert-danger" *ngIf="mensagemErro">
                                     {{mensagemErro}}
                                 </div>
     
@@ -55,13 +55,13 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="card-footer text-center">
+                            <!-- <div class="card-footer text-center">
                                 <div class="small">
                                     <a href="#" (click)="preparaCadastro($event)">
                                         Cadastrar novo usuário
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
